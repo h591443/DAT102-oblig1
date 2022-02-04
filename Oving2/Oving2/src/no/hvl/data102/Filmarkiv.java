@@ -1,8 +1,6 @@
 package no.hvl.data102;
 
-import no.hvl.data102.adt.FilmArkivADT;
-
-public class Filmarkiv implements FilmArkivADT { 
+public class Filmarkiv { 
 	
 	private Film[] FilmTab; 
 	private int antall; 
@@ -104,12 +102,6 @@ public class Filmarkiv implements FilmArkivADT {
 	public int antall() {
 
 		return antall;
-	}
-
-	@Override
-	public boolean finnes(int nr) {
-		// TODO Auto-generated method stub
-		return false;
 	}
 	
 }

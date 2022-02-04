@@ -10,7 +10,7 @@ public class Meny {
 	private FilmArkivADT filmarkiv; 
 	
 	public Meny(FilmArkivADT filmarkiv) { 
-		tekstg = new Tekstgrensesnitt(); 
+		tekstg = new Tekstgrensitt(); 
 		this.filmarkiv= filmarkiv;  
 	} 
 	public void start() {

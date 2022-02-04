@@ -6,6 +6,11 @@ package no.hvl.dat102.tabell;
 import no.hvl.dat102.adt.KoeADT;
 import no.hvl.dat102.exceptions.EmptyCollectionException;
 
+/**
+ * @author Ole Olsen
+ * @param <T>
+ * 
+ */
 public class TabellSirkulaerKoe<T> implements KoeADT<T> {
 
 	private final static int STDK = 100;
